@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Seções */
+main {
+    margin-top: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+.produto {
+    padding: 20px;
+}
+
+/* Estilo das funcionalidades */
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid red; /* Bordas em vermelho */
+    border-radius: 10px;
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+.feature img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.feature h3 {
+    color: red; /* Títulos das funcionalidades em vermelho */
+    margin-bottom: 5px;
+}
+
+/* Monitoramento */
+.monitor {
+    padding: 20px;
+    background-color: rgba(79, 79, 79, 0.7); /* Fundo vermelho escuro */
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+    accent-color: red; /* Barra de progresso em vermelho */
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+    accent-color: red; /* Slider de volume em vermelho */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(80, 0, 0, 0.9); /* Fundo vermelho escuro */
+    border-top: 2px solid red;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}

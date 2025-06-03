@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Monitoramento do Fone</title>
+</head>
+<body>
+    <main>
+        <section id="produto" class="produto">
+            <h2>Monitoramento do Fone</h2>
+
+            <div class="monitor">
+                <h3>Bateria</h3>
+                <p>Nível da bateria: <span id="batteryLevel">75</span>%</p>
+                <progress id="batteryBar" value="75" max="100"></progress>
+            </div>
+
+            <div class="monitor">
+                <h3>Volume</h3>
+                <p>Volume atual: <span id="volumeLevel">50</span></p>
+                <input type="range" id="volumeSlider" min="0" max="100" value="50">
+            </div>
+
+            <div class="monitor">
+                <h3>Localização do Fone</h3>
+                <a href="https://earth.google.com/"><button>Ver Localização</button></a>
+                <div id="map"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <p>&copy; 2025 Xsound. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
